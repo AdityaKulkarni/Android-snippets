@@ -1,4 +1,4 @@
-/*check if entered email is a valid email*/
+/*email validationl*/
 boolean isEmailValid(CharSequence email) {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }

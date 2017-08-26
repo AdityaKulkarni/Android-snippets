@@ -1,4 +1,4 @@
-/*Inserting data into table with PHP backend using GET method*/
+/*Inserting data into table and retrieve in JSON with PHP backend using GET method*/
 class GetDoctorWroker extends AsyncTask<String, Void,ArrayList<DoctorListModel>> implements IpInterface{
 
     private ProgressDialog dialog;

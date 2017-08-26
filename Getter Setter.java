@@ -1,4 +1,4 @@
-/*Gteer setter model*/
+/*Getterr setter model*/
 class DoctorListModel implements Serializable{
     private String docname,docemail,doccontact,docqual,doccat,doclat,doclong;
     private String url;
