@@ -1,4 +1,6 @@
-/*Inserting data into table and retrieve in JSON with PHP backend using GET method*/
+/*
+    * Inserting data into table and retrieve in JSON with PHP backend using GET method
+*/
 class GetDoctorWroker extends AsyncTask<String, Void,ArrayList<DoctorListModel>> implements IpInterface{
 
     private ProgressDialog dialog;
@@ -182,7 +184,6 @@ class GetDoctorWroker extends AsyncTask<String, Void,ArrayList<DoctorListModel>>
             Snackbar snackbar = Snackbar
                     .make(view, context.getString(R.string.noDoctorsIn) + " " + category + " " + context.getString(R.string.category), Snackbar.LENGTH_LONG);
             snackbar.show();
-            //Toast.makeText(context,context.getString(R.string.noDoctorsIn) + " " + category + " " + context.getString(R.string.category),Toast.LENGTH_LONG).show();
         }
     }
 }
